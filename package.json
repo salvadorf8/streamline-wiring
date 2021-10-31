@@ -1,0 +1,20 @@
+{
+    "name": "streamline-wiring-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix streamline-wiring-api && npm run build --prefix streamline-wiring-api"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/salvadorf8/streamline-wiring.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/salvadorf8/streamline-wiring/issues"
+    },
+    "homepage": "https://github.com/salvadorf8/streamline-wiring#readme"
+}
